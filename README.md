@@ -10,14 +10,13 @@
 - GARCIA - Nothing 
 - joaking777 / Gonzalez-Joaquin - Outdated README.md
 - Agustinexe / Agustin-Hayes - Not deployed & Outdated README.md
-- Hidalgo - Nothing
 - docker-er / Maximo-Imfeld - Finished all
 - Mapuchengo / Santiago-Kiverling - Finished all
 - camilakramer / Frontend-kramer - Finished all
 - XavierL7 / Xavier-Lacunza - Finished all
 - Renzo717 / RenzoLi - Missing inspirations
 - LOPEZ - Nothing
-- LUCCA - Nothing
+- lukkaisito / LorenzoLucca - Not deployed
 - elianloto20-byte / elian-loto - Finished all
 - Martin-ahs / Frontend-Example - Finished all
 - Renzzot / Raymundo-Renzo - Finished all
@@ -32,4 +31,6 @@
 - Windeker / Frontend-windeker - Not deployed & Outdated README.md
 - ZALAZAR - Nothing
 - Insomnyo / Zarate-Emiliano - Not deployed
-- keilazorzon / Keila-Zorz-n- - Not deployed & Outdated README.md
+- keilazorzon / Keila-Zorz-n - Not deployed & Outdated README.md
+- FranBlkt28 / Ramirez-Francisco - Finished all
+- maiaaramirezz / Maia-Ramirez - Finished all
