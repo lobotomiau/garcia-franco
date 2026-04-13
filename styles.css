@@ -32,58 +32,36 @@ body {
     align-items: stretch;
 }
 
-/* Cuadro de la Foto con línea fina y separada */
 .profile-pic-col {
     background-color: #1e1e1e;
     border-radius: 12px;
     padding: 35px 20px;
     text-align: center;
     border: 1px solid #2d2d2d;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
 }
 
 .pic-frame {
     padding: 20px;
     border: 1px solid #333333;
     border-radius: 14px;
-    display: inline-block;
-    line-height: 0;
-    background-color: transparent;
 }
 
 .profile-pic {
     max-width: 320px;
-    max-height: 320px;
-    width: auto;
-    height: auto;
     border-radius: 8px;
-    object-fit: contain;
-    display: block;
 }
 
 .profile-pic-col h1 {
     font-size: 1.6rem;
     margin-top: 25px;
-    color: #ffffff;
-}
-
-.profile-pic-col h1 span {
-    color: #888;
-    font-weight: 400;
-    font-size: 1.1rem;
-    display: block;
 }
 
 .tagline {
     color: #a0a0a0;
-    font-size: 1rem;
     margin-top: 12px;
 }
 
-/* Columnas de Info */
+/* Columnas */
 .top-info-cols {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -102,24 +80,32 @@ body {
     border-radius: 12px;
     padding: 30px;
     border: 1px solid #2d2d2d;
-    height: 100%;
 }
 
 .card h2 {
     font-size: 1.2rem;
-    color: #ffffff;
     margin-bottom: 18px;
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.card h2 i { color: #4dabf7; }
+.card h2 i {
+    color: #4dabf7;
+}
 
-.card p { color: #b3b3b3; font-size: 1.05rem; }
+.card p {
+    color: #b3b3b3;
+}
 
 /* Hobbies */
-.hobby-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+.hobby-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 .hobby-list li {
     display: flex;
     align-items: center;
@@ -127,7 +113,6 @@ body {
     background-color: #252526;
     padding: 10px 15px;
     border-radius: 8px;
-    font-size: 1rem;
 }
 
 .icon-box {
@@ -141,12 +126,54 @@ body {
     border-radius: 6px;
 }
 
-/* Responsivo */
+/* FORMULARIO */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario label {
+    color: #aaa;
+    font-size: 0.95rem;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background: #252526;
+    color: white;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    outline: 1px solid #4dabf7;
+}
+
+/* BOTÓN */
+.send-btn {
+    background-color: #4dabf7;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+.send-btn:hover {
+    background-color: #339af0;
+}
+
+/* RESPONSIVE */
 @media (max-width: 900px) {
-    .upper-section { grid-template-columns: 1fr; }
-    .top-info-cols { grid-template-columns: 1fr; }
-    .profile-pic {
-        width: 250px;
-        height: 250px;
+    .upper-section {
+        grid-template-columns: 1fr;
+    }
+
+    .top-info-cols {
+        grid-template-columns: 1fr;
     }
 }
